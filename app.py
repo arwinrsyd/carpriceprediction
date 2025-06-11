@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load model yang telah dilatih dan disimpan
-model = joblib.load("car_price_model.pkl")
+model = joblib.load("carprice_model.pkl")
 
 st.title("Prediksi Harga Mobil")
 st.write("Masukkan detail mobil untuk memprediksi harga jualnya:")
